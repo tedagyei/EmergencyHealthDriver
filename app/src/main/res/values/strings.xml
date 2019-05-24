@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Emergency Health Driver</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="default_notification_channel_id">Channel1</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_confirm_password">Confirm password</string>
+    <string name="register_button">Register</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="accept_request">Accept Request</string>
+    <string name="accept_patient_request">Accept Request</string>
+    <string name="Phone_number">Phone Number</string>
+    <string name="patient_details">Patient Details</string>
+    <string name="confirm_pickup">Confirm Pickup</string>
+    <string name="title_activity_patient">Medical Information</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="hospitals">
+        <item>Knust Hospital</item>
+        <item>Kumasi South Hospital</item>
+        <item>Bomso Clinic</item>
+    </string-array>
+</resources>

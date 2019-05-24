@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "746693181961",
+    "firebase_url": "https://emergency-health.firebaseio.com",
+    "project_id": "emergency-health",
+    "storage_bucket": "emergency-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746693181961:android:134982bb1da1637b",
+        "android_client_info": {
+          "package_name": "com.newproject.ted.emergencyhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746693181961-fu4vo0uqlb9vml9nmf9nnaf3kjihue16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newproject.ted.emergencyhealth",
+            "certificate_hash": "bc61a4dae72491719f849d63f628534d3213d128"
+          }
+        },
+        {
+          "client_id": "746693181961-lodrghvt0fvom5l4aaqoqc0e3gp5giff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw1uhubsHWtN5Iee6_ApteON-10GgDS9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746693181961-lodrghvt0fvom5l4aaqoqc0e3gp5giff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746693181961:android:0ab34008b15e5f32",
+        "android_client_info": {
+          "package_name": "com.newproject.ted.emergencyhealthdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746693181961-7ngmj76491e1jv9p0bt3u886jp69v169.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newproject.ted.emergencyhealthdriver",
+            "certificate_hash": "bc61a4dae72491719f849d63f628534d3213d128"
+          }
+        },
+        {
+          "client_id": "746693181961-lodrghvt0fvom5l4aaqoqc0e3gp5giff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw1uhubsHWtN5Iee6_ApteON-10GgDS9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746693181961-lodrghvt0fvom5l4aaqoqc0e3gp5giff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

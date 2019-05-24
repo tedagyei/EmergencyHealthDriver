@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+tools:context=".MapsActivity"
+    >
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+<Button
+    android:id="@+id/logout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/logout"
+    android:layout_margin="10dp"
+    android:onClick="LogoutOnClickHandler"
+    android:textColor="@color/white"
+    android:background="@color/red"
+    />
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/newrelative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            >
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/driver_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_alignParentTop="true"
+
+
+
+            />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/patient_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/accept_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/accept_patient_request"
+            android:onClick="AcceptRequestClickHandler"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:layout_alignParentBottom="true"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/showpatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_details"
+            android:onClick="PatientDetailsClickHandler"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:layout_alignParentBottom="true"
+            />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</FrameLayout>
